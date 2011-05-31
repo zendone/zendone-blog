@@ -8,9 +8,12 @@
 
     http://172.16.50.1:8080/wordpress/
 
-    The administration panel is at (you should use the login/password set in the installation process):
+    The administration panel is at:
 
     http://172.16.50.1:8080/wordpress/wp-admin
+    
+     (you should use the login/password set in the installation process):
+    
     
 3. Clone the git repository in the directory you want to work. Assuming your working directory is `~/work`
         
