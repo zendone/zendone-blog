@@ -4,7 +4,7 @@
 
     http://bitnami.org/stack/wordpress
 
-2. Complete its installation. Keep all the defaults. Choose launching the wordpress stack at the end. You should have an instance of wordpress running at:
+2. Install the bitnami package. Keep all the defaults. Choose launching the wordpress stack at the end. You should have an instance of wordpress running at:
 
     http://172.16.50.1:8080/wordpress/
 
