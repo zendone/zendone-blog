@@ -16,6 +16,14 @@
 <?php if ($comments) : ?>
 	<div id="comments">
 		<h3><?php comments_number(__('No comments yet.','vostok'), __('There is 1 comment in this article:','vostok'), __('There are % comments in this article:','vostok') );?></h3>
+		
+		<p class="post-comments">
+      <a class="comments-participate" href="#respond-form" title=""><span>+</span></a>
+    	<a class="comments-count" href="#comments" title="">
+    	  <?php comments_number(__('There are % comments in this article:','vostok') );?>
+    	</a>
+    </p>
+		
 		<ol>
 		<?php foreach ($comments as $comment) : ?>
 			<li id="comment-<?php comment_ID() ?>"  class="comment <?php if (get_comment_author_email() == get_the_author_meta('user_email')) { echo ('highlighted'); }?>">

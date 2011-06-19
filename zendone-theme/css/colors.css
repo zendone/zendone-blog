@@ -17,20 +17,21 @@
 */
 
 html, body {
-	background: #2F2F2F; }
+	background: black url(../img/bg-linen-texture.jpg) 0 0 repeat;
+}
 	
 strong {
 	color: #CCC;
 }
 
 #wrapper {
-	background: #2F2F2F;
+	background: url(../img/bg-linen-texture.jpg) 0 0 repeat-x;
 	color: #999;
 }
 
 #header a:link,
 #header a:visited {
-	color: #09C;
+	color: #bfbf00;
 }
 
 #header a:hover,
@@ -51,7 +52,10 @@ strong {
 }
 
 .post {
-	background: #3C3C3C;
+	background:rgba(0, 0, 0, 0.4);
+	border:solid 1px black;
+	-moz-border-radius: 4px; -webkit-border-radius:4px; border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px; -moz-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px;
 }
 
 .post h2,
@@ -124,11 +128,15 @@ strong {
 
 .comment {
 	border-top: 1px solid #3C3C3C;
+	border: solid 2px black;
 }
 
 .highlighted {
-	background: #3C3C3C;
-	border-top: 1px solid #2F2F2F;
+	background:rgba(0, 0, 0, 0.4);
+	border-top: 1px solid #000000;
+	margin-bottom: 4px;
+	-moz-border-radius: 4px; -webkit-border-radius:4px; border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,0.4) 3px 3px 8px; -moz-box-shadow: rgba(0,0,0,0.4) 3px 3px 8px; box-shadow: rgba(0,0,0,0.4) 3px 3px 8px;
 }
 
 .highlighted a:link,
@@ -145,18 +153,30 @@ strong {
 }
 
 #commentform {
-	background: #3C3C3C;
+	background-color: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.0) url(../img/underwood.png) left 12px no-repeat;
+	border: none 2px black;
+	margin-top:80px;
+	text-indent:120px;
+}
+
+#commentform textarea {
+	2margin-left:-120px;
+	width:490px !important;
+	border: solid 2px #000000;
+	-moz-border-radius: 4px; -webkit-border-radius:4px; border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,0.8) 3px 3px 8px; -moz-box-shadow: rgba(0,0,0,0.8) 3px 3px 8px; box-shadow: rgba(0,0,0,0.8) 3px 3px 8px;
 }
 
 #commentform a:link,
 #commentform a:visited {
-	color: #09C;
+	color: #bfbf00;
 }
 
 #commentform a:hover,
 #commentform a:active,
 #commentform a:focus {
-	color: #CCC;
+	color: #ffffff;
 }
 
 .pagination {

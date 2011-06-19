@@ -14,14 +14,17 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/styles-ie6.css" type="text/css" media="screen" />
 	<![endif]-->
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/print.css" type="text/css" media="print" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/zendone-blog.css" type="text/css" media="screen" />
 	<link rel="alternate" type="application/rss+xml" href="<?php bloginfo('rss2_url'); ?>" title="<?php bloginfo('name'); ?> <?php _e('RSS Feed','vostok'); ?>" />
 	<link rel="alternate" type="application/rss+xml" href="<?php bloginfo('comments_rss2_url') ?>" title="<?php bloginfo('name'); ?> <?php _e('Comments RSS Feed','vostok'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <?php wp_head(); ?>
 </head>
 <body>
+<div id="zd-logo-header"></div>
 <div id="wrapper">
 	<div id="header">
 		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 		<p class="description"><?php bloginfo('description'); ?></p>
 	</div><!-- close:header -->
+	
