@@ -88,6 +88,14 @@ strong {
 }
 
 .entry a:link,
+
+.comment {
+	background:rgba(0, 0, 0, 0.4);
+	border:solid 1px black;
+	-moz-border-radius: 4px; -webkit-border-radius:4px; border-radius: 4px;
+	-webkit-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px; -moz-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px;
+}
+
 .comment a:link {
 	color: #F90;
 }
@@ -154,10 +162,10 @@ strong {
 
 #commentform {
 	background-color: rgba(0, 0, 0, 0.4);
-	background: rgba(0, 0, 0, 0.0) url(../img/underwood.png) left 12px no-repeat;
+	background: rgba(0, 0, 0, 0.0) left 12px no-repeat;
 	border: none 2px black;
 	margin-top:80px;
-	text-indent:120px;
+/*  text-indent:120px;*/
 }
 
 #commentform textarea {
@@ -222,11 +230,17 @@ strong {
 #footer {
 	border-top: 1px solid #3C3C3C;
 	color: #828282;
-}
+	height: 36px;
+/*  background:url('../img/bgFooter.jpg') #333333 repeat-x center top;*/
+	color:#748080;
+	line-height:36px;
+	padding:0 6px 0 20px;
+}                 
 
+                      
 #footer a:link,
 #footer a:visited {
-	color: #09C;
+	color: #CCC;
 }
 
 #footer a:hover,

@@ -1,5 +1,5 @@
 /* type.css */
-
+            
 #wrapper {
 	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
 	font-size: 15px;
@@ -123,13 +123,17 @@ a.back {
 }
 
 #footer {
-  font-size: 13px;
+  font-size: 11px;
+} 
+
+.post-comments a{
+  color: #999;
 }
 
-#footer a {
-	text-decoration: underline;
+/*#footer a {
+  text-decoration: underline;
 }
 
 #footer p {
-	margin: 0;
-}
+  margin: 0;
+}*/

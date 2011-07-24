@@ -2,7 +2,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://gmpg.org/xfn/11">
-	<title><?php if (is_home()) { ?><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?><?php } elseif (is_single() || is_page() || is_archive()) { ?><?php wp_title(''); ?> - <?php bloginfo('name'); ?><?php } elseif  (is_404()) { ?><?php _e('The page you are looking for doesn\'t exist. Sorry.','vostok'); ?> - <?php bloginfo('name'); ?><?php } elseif (is_search()) { ?><?php _e('You searched for the following','vostok'); ?>: "<?php echo wp_specialchars($s); ?>" - <?php bloginfo('name'); ?><?php } ?></title>
+	<title><?php if (is_home()) { ?><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?><?php } elseif (is_single() || is_page() || is_archive()) { ?><?php wp_title(''); ?> - <?php bloginfo('name'); ?><?php } elseif  (is_404()) { ?><?php _e('The page you are looking for doesn\'t exist. Sorry.','zendone'); ?> - <?php bloginfo('name'); ?><?php } elseif (is_search()) { ?><?php _e('You searched for the following','zendone'); ?>: "<?php echo wp_specialchars($s); ?>" - <?php bloginfo('name'); ?><?php } ?></title>
+	    
+    <script type="text/javascript" src="http://use.typekit.com/yuz8gth.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta name="description" content="<?php bloginfo('description') ?>" />
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
@@ -28,3 +31,25 @@
 		<p class="description"><?php bloginfo('description'); ?></p>
 	</div><!-- close:header -->
 	
+	
+	<div id="main-navigation-menu">
+        <ul>
+          <li>
+            <span class="tour">TOUR</span>
+          </li>
+          <li>
+            <span class="help">HELP</span>
+          </li>
+          <li>
+            <span class="pricing">PRICING</span>
+          </li>
+          <li>
+            <span class="selected">BLOG</a>
+          </li>
+          <li>
+            <a href="http://www.zendone.com/login" class="login">LOGIN</a>
+          </li>
+        </ul>
+    </div>
+
+    

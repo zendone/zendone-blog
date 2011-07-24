@@ -1,4 +1,24 @@
-<?php get_header(); ?>
+<?php get_header(); ?> 
+    <div id="main-navigation-menu">
+        <ul>
+          <li>
+            <span class="tour">TOUR</span>
+          </li>
+          <li>
+            <span class="help">HELP</span>
+          </li>
+          <li>
+            <span class="pricing">PRICING</span>
+          </li>
+          <li>
+            <span class="selected">BLOG</a>
+          </li>
+          <li>
+            <a href="/login" class="login">LOGIN</a>
+          </li>
+        </ul>
+    </div>
+
 	<div id="content">
 		<div id="main-content">
 		<?php if (have_posts()) : ?>

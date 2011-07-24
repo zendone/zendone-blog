@@ -15,7 +15,6 @@
 <!-- You can start editing here. -->
 <?php if ($comments) : ?>
 	<div id="comments">
-		<h3><?php comments_number(__('No comments yet.','vostok'), __('There is 1 comment in this article:','vostok'), __('There are % comments in this article:','vostok') );?></h3>
 		
 		<p class="post-comments">
       <a class="comments-participate" href="#respond-form" title=""><span>+</span></a>
