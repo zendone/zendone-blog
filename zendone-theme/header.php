@@ -5,7 +5,7 @@
 	<title><?php if (is_home()) { ?><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?><?php } elseif (is_single() || is_page() || is_archive()) { ?><?php wp_title(''); ?> - <?php bloginfo('name'); ?><?php } elseif  (is_404()) { ?><?php _e('The page you are looking for doesn\'t exist. Sorry.','zendone'); ?> - <?php bloginfo('name'); ?><?php } elseif (is_search()) { ?><?php _e('You searched for the following','zendone'); ?>: "<?php echo wp_specialchars($s); ?>" - <?php bloginfo('name'); ?><?php } ?></title>
 	    
     <script type="text/javascript" src="http://use.typekit.com/yuz8gth.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <!-- <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta name="description" content="<?php bloginfo('description') ?>" />
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
@@ -28,7 +28,7 @@
 <div id="wrapper">
 	<div id="header">
 		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-		<p class="description"><?php bloginfo('description'); ?></p>
+		<p class="description">Thoughts about <a href="http://www.zendone.com">zen<b>done</b></a>. Written by its crew</p>
 	</div><!-- close:header -->
 	
 	

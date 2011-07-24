@@ -1,31 +1,11 @@
 <?php get_header(); ?> 
-    <div id="main-navigation-menu">
-        <ul>
-          <li>
-            <span class="tour">TOUR</span>
-          </li>
-          <li>
-            <span class="help">HELP</span>
-          </li>
-          <li>
-            <span class="pricing">PRICING</span>
-          </li>
-          <li>
-            <span class="selected">BLOG</a>
-          </li>
-          <li>
-            <a href="/login" class="login">LOGIN</a>
-          </li>
-        </ul>
-    </div>
-
 	<div id="content">
 		<div id="main-content">
 		<?php if (have_posts()) : ?>
 			<?php while (have_posts()) : the_post(); ?>
 				<div class="post" id="post-<?php the_ID(); ?>">
 					<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-					<span class="date">by <?php the_author(); ?> on <?php the_time(__('j/m/Y','vostok')) ?></span>
+					<span class="date"><!-- by <?php the_author(); ?> on --> <?php the_time(__('M d','vostok')) ?></span>
 					<div class="entry">
 						<?php the_content(__('Read the rest of this article','vostok').' &raquo;'); ?>
 					</div>
