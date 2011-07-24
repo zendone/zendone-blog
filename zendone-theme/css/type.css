@@ -1,7 +1,9 @@
 /* type.css */
+
+* {font-family: "gesta-1", "gesta-2", "Arial"; font-weight: normal;}
             
 #wrapper {
-	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+/*  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;*/
 	font-size: 15px;
 	line-height: 145%;
 }
@@ -33,7 +35,7 @@ a.back {
 #commentform h3,
 .emptysearch,
 .error {
-	font-family: Helvetica, Arial, sans-serif;
+/*  font-family: Helvetica, Arial, sans-serif;*/
 	font-size: 18px;
 	font-weight: normal;
 }
@@ -48,21 +50,21 @@ a.back {
 }
 
 .post h3 {
-	font-family: Helvetica, Arial, sans-serif;
+/*  font-family: Helvetica, Arial, sans-serif;*/
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 120%;
 }
 
 .post h4 {
-	font-family: Helvetica, Arial, sans-serif;
+/*  font-family: Helvetica, Arial, sans-serif;*/
 	font-size: 13px;
 	font-weight: normal;
 	line-height: 120%;
 }
 
 .post h5 {
-	font-family: Helvetica, Arial, sans-serif;
+/*  font-family: Helvetica, Arial, sans-serif;*/
 	font-size: 13px;
 	font-weight: normal;
 	line-height: 120%;
