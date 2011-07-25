@@ -10,12 +10,12 @@ Pings: On
 Comments: On
 Category: Uncategorized
 
-Today we are launching the zendone's blog. There is still a lot of work to do, but we think it is about time to start sharing what we are doing with the community.
+Today we are launching our blog. There is still a lot of work to do, but we think it is about time to start sharing what we are doing with the community.
 
 [zendone](http://www.zendone.com) is a personal productivity tool designed around 3 principles:
 
 1. **Based in [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_things_done).** zendone aims to make it easy to implement the GTD workflow.
-2. **Using the right tool for the right job.** There are world-class tools for implementing some GTD functions. zendone don't recreate these mechanisms. But it offers a world-class integration instead. In zendone:
+2. **Using the right tool for the right job.** There are world-class tools for implementing some GTD functions. zendone don't recreate these mechanisms, but it offers a world-class integration instead. In zendone:
 
 	- [Evernote](http://www.evernote.com/) is both the main collection mechanism and the archive for your reference material
 	- [Google Calendar](https://www.google.com/calendar/) is the GTD Calendar.
@@ -26,9 +26,10 @@ We are participating in the [incoming Evernote developers competition](http://ww
 
 <iframe src="http://player.vimeo.com/video/26333538?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="620" height="349" frameborder="0"></iframe> 
 
-zendone is currently in alpha state. We plan to launch a private beta soon. If you are interested, you can request an invitation for the beta in [our homepage](http://www.zendone.com). You can also [follow us on twitter](http://twitter.com/#!/zendoneapp).
+zendone is currently in alpha version. We plan to launch a private beta soon. If you are interested, you can request an invitation for the beta in [our homepage](http://www.zendone.com). You can also [follow us on twitter](http://twitter.com/#!/zendoneapp).
                                          
-And a final comment: while zendone is heavily inspired by GTD®, should not be considered a certified or official GTD implementation. zendone is not endorsed by the [David Allen Company](http://www.davidco.com/), which is the owner of the registered trademarks GTD@ and Getting Things Done@. 
-
+And one final comment: while zendone is heavily inspired by GTD and we deeply admire its creator, David Allen, it should not be considered a certified or official GTD implementation. zendone is not endorsed by the [David Allen Company](http://www.davidco.com/), which owns the registered trademarks GTD® and Getting Things Done®. 
+                  
+Stay tuned! Much more things to come in the following weeks.
 
 The zendone team: Javier, [Pablo](http://pablomanrubia.com/) and [Jorge](http://jorgemanrubia.net)
