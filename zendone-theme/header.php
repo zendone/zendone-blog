@@ -50,6 +50,9 @@
 	<div id="main-navigation-menu">
         <ul>
           <li>
+             <a href="http://www.zendone.com" class="home">HOME</a>
+          </li>
+          <li>
             <span class="tour">TOUR</span>
           </li>
           <li>
