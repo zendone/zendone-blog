@@ -79,12 +79,17 @@ a.back {
 }
 
 .post .number-of-comments a {
-	text-decoration: underline;
+	text-decoration: none;
+	text-transform: lowercase;
 	font-size: 13px;
+	border-bottom: dotted 1px #564700;
+}
+.post .number-of-comments a:hover {
+	border-bottom: dotted 1px #bfbf00;
 }
 
 #comments {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .date {
@@ -130,6 +135,42 @@ a.back {
 
 .post-comments a{
   color: #999;
+}
+
+.comments-count {
+  background: url(../img/ico-comments.png) no-repeat center 2px;
+  display:inline-block;
+  width:54px;
+  height:40px;
+  line-height:36px;
+  font-size:16px;
+  font-weight:bold;
+  color:black !important;
+  text-indent:18px;
+  overflow:hidden;
+  vertical-align:middle;
+}
+
+.post-comments span {
+  font-size:11px;
+  font-weight:normal;
+  display:inline-block;
+  margin-right:20px;
+}
+
+.comments-participate {
+  background: url(../img/btn-add.png) no-repeat center 0;
+  display:inline-block;
+  width:68px;
+  height:33px;
+  font-size:14px;
+  color:black;
+  position:relative;
+  top:-5px;
+}
+
+.comments-participate:hover {
+  background: url(../img/btn-add.png) no-repeat center -33px;
 }
 
 /*#footer a {

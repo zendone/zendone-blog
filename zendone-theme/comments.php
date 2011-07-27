@@ -17,10 +17,11 @@
 	<div id="comments">
 		
 		<p class="post-comments">
-      <a class="comments-participate" href="#respond-form" title=""><span>+</span></a>
-    	<a class="comments-count" href="#comments" title="">
+      <a class="comments-count" href="#comments" title="">
     	  <?php comments_number(__('There are % comments in this article:','vostok') );?>
     	</a>
+    	<span>COMMENTS</span>
+    	<a class="comments-participate" href="#comment" title="Add a new comment"><span></span></a>
     </p>
 		
 		<ol>
@@ -73,7 +74,7 @@
 				<label for="url"><?php _e('Website (if you have one)','vostok'); ?></label>
 			</p>
 		<?php endif; ?>
-			<p>
+			<p class="comment-container">
 				<textarea name="comment" id="comment" cols="100%" rows="10"></textarea>
 			</p>
 			<p class="input-submit">

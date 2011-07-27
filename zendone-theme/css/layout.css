@@ -104,9 +104,9 @@
 }
 
 .comment .date {
-	bottom: 1em;
+	top: 8px;
 	position: absolute;
-	right: 1em;
+	right: 8px;
 }
 
 #commentform {
@@ -148,17 +148,25 @@
   padding: 1em 0;
 }*/
 
-#main-navigation-menu         {position:absolute; right:0px; top:0px; font-size: 12px}
-#main-navigation-menu ul      {position:relative;}
-#main-navigation-menu ul li   {float:left; color:white; padding-left:8px; margin-right:20px; padding-top:4px; display:inline-block;}
-#main-navigation-menu li      {height:24px; border-left:solid 1px white;}
 
-#main-navigation-menu a       {text-decoration:none; color:WHITE;}
-#main-navigation-menu a:hover {text-decoration:NONE; color:YELLOW;}
 
-#main-navigation-menu span.selected {color: YELLOW; font-weight: bold;}
+#main-navigation-menu                     {position:absolute; right:0px; top:0px; width:100%; text-align:right;}
+#main-navigation-menu ul                  {position:relative; text-align:right; top:-4px;}
+#main-navigation-menu ul li               {_float:left; display:inline-block;}
+#main-navigation-menu li                  {height:24px;}
 
-/* Added by Pablo to disable visually the main window navigation options that has no content*/
-#main-navigation-menu ul li span.tour           { color: gray }
-#main-navigation-menu ul li span.pricing           { color: gray }
-#main-navigation-menu ul li span.help           { color: gray }
+#main-navigation-menu ul li a             {display:inline-block; font-size:12px; padding-left:8px; margin-right:20px; padding-top:4px; text-decoration:none; color:WHITE; border-left:solid 1px #737476; height:24px;}
+#main-navigation-menu ul li a:hover       {text-decoration:NONE; color:YELLOW;}
+
+#main-navigation-menu ul li span          {display:inline-block; font-size:12px; padding-left:8px; margin-right:20px; padding-top:4px; border-left:solid 1px #737476; color: gray; height:24px;}
+#main-navigation-menu ul li span.selected {color: white; font-weight: bold; background: url('../img/icon-arrow.png') no-repeat center bottom;}
+
+#main-content.home      {}
+#main-content.blog      {}
+#main-content.help      {}
+#main-content.login     {}
+#main-content.tour      {}
+#main-content.pricing   {}
+
+#main-navigation-menu a.home          {z-index:9999; position:absolute !important; display:block; border-left:none; top:5px; left:1px; width:auto !important; height:33px; text-indent:24px; background: url('../img/btn-home.png') no-repeat 0 -1px;}
+#main-navigation-menu a:hover.home    {background-position: 0 -34px;}
