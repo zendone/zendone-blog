@@ -53,7 +53,7 @@
              <a href="http://www.zendone.com" class="home">HOME</a>
           </li>
           <li>
-            <span class="tour">TOUR</span>
+             <a href="http://www.zendone.com/tour" class="tour">TOUR</a>
           </li>
           <li>
             <span class="help">HELP</span>
