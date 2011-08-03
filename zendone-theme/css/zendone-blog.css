@@ -32,7 +32,7 @@
 /*________________________________________________________________________________________________________*/
 /* FOOTER                                                                                                 */
 /*                                                                                                        */			
-#footer.footer                    {width:940px; height:42px; text-align:center; margin:8px auto 32px auto !important; border-top:solid 1px black !important;}
+#footer.footer                    {width:974px; height:42px; text-align:center; margin:8px auto 32px auto !important; border-top:solid 1px black !important;}
 #footer .content                  {width:100%; padding-top:8px; border-top:solid 1px #404040; color:#707070 !important; display:inline-block; text-align:left;}
 #footer .content *                {font-size:13px; color:#707070 !important;}
 #footer .content a,              

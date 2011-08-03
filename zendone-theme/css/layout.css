@@ -2,18 +2,23 @@
 
 #wrapper {
 	margin: 0 auto;
-	max-width: 940px;
 	min-width: 700px;
 }
 
 #header {
-	margin: 0 0 -1em 0;
+  max-width: 46.15em;
+	margin: 0 auto -1em auto;
 	padding: 5em 0 0 0;
 	position: relative;
 }
 
 #header .description {
 	margin: .5em 0 0 0;
+}
+
+#content {
+  max-width: 46.15em;
+  margin: auto;
 }
 
 .string {
@@ -136,6 +141,11 @@
 #sidebar .email {
 	background: url(../img/ico-mail.gif) 0 4px no-repeat;
 	padding: 0 0 0 1.8em;
+}
+
+
+#sidebar #rss  {
+  margin-bottom: 42px; 
 }
 
 #sidebar #rss li {
