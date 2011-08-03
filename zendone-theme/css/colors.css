@@ -91,7 +91,7 @@ strong {
 }
 
 .comment {
-	color: #bfbf00;
+	color: #999;
 	-moz-border-radius: 4px; -webkit-border-radius:4px; border-radius: 4px;
 	-webkit-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px; -moz-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px;
 }
@@ -104,6 +104,12 @@ strong {
 
 .comment a:link {
 	color: white;
+	border-bottom:dotted 1px #505050 !important;
+}
+
+.cite a {
+	color: white;
+	border-bottom:dotted 1px #505050 !important;
 }
 
 .entry a:visited,
@@ -117,8 +123,11 @@ strong {
 .entry a:focus,
 .comment a:hover,
 .comment a:active,
-.comment a:focus {
-	color: #bfbf00;
+.comment a:focus,
+.cite a:hover,
+.cite a:active,
+.cite a:focus {
+	color: #bfbf00 !important;
 	border-bottom:dotted 1px #bfbf00 !important;
 }
 

@@ -115,7 +115,7 @@ a.back {
 }
 
 .comment cite a {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .pagination a {
