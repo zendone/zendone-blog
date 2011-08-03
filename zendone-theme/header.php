@@ -2,7 +2,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://gmpg.org/xfn/11">
-	<title><?php if (is_home()) { ?><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?><?php } elseif (is_single() || is_page() || is_archive()) { ?><?php wp_title(''); ?> - <?php bloginfo('name'); ?><?php } elseif  (is_404()) { ?><?php _e('The page you are looking for doesn\'t exist. Sorry.','zendone'); ?> - <?php bloginfo('name'); ?><?php } elseif (is_search()) { ?><?php _e('You searched for the following','zendone'); ?>: "<?php echo wp_specialchars($s); ?>" - <?php bloginfo('name'); ?><?php } ?></title>
+	<title>zendone | blog</title>
 	    
     <script type="text/javascript" src="http://use.typekit.com/yuz8gth.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -53,7 +53,7 @@
              <a href="http://www.zendone.com" class="home">HOME</a>
           </li>
           <li>
-            <span class="tour">TOUR</span>
+             <a href="http://www.zendone.com/tour" class="tour">TOUR</a>
           </li>
           <li>
             <span class="help">HELP</span>
