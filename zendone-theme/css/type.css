@@ -1,6 +1,6 @@
 /* type.css */
 
-* {font-family: "gesta-1", "gesta-2", "Arial"; font-weight: normal;}
+* {font-family:  "Gesta-Regular", "gesta-1", "gesta-2", "Arial"; font-weight: normal;}
             
 #wrapper {
 /*  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;*/
@@ -42,11 +42,12 @@ a.back {
 
 .post h2 a {
 	text-decoration: none;
+	line-height:24px;
 }
 
 .post h2 {
   font-size: 22px;
-	line-height: 18px;
+	line-height: 26px;
 }
 
 .post h3 {

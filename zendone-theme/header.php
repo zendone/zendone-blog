@@ -39,8 +39,8 @@
 <?php wp_head(); ?>
 </head>
 <body>
-<div id="zd-logo-header"></div>
-<div id="wrapper">
+
+<div id="wrapper" class="zd-logo-header">
 	<div id="header">
 		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 		<p class="description">Things about <a href="http://www.zendone.com">zen<b>done</b></a>. Written by its crew</p>

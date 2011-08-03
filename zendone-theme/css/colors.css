@@ -78,6 +78,7 @@ strong {
 .post h2 a:active,
 .post h2 a:focus {
 	color: #bfbf00;
+	_border-bottom:dotted 1px #564700;
 }
 
 .post blockquote {
@@ -89,22 +90,26 @@ strong {
 	text-transform: lowercase;
 }
 
-.entry a:link,
 .comment {
-	color: #CCC;
-/*  background:rgba(0, 0, 0, 0.31);*/
-/*  border:solid 1px black;*/
+	color: #bfbf00;
 	-moz-border-radius: 4px; -webkit-border-radius:4px; border-radius: 4px;
 	-webkit-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px; -moz-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px;
 }
 
+.entry a:link {
+  color:white !important;
+  text-decoration:none;
+  border-bottom:dotted 1px #505050 !important;
+}
+
 .comment a:link {
-	color: #bfbf00;
+	color: white;
 }
 
 .entry a:visited,
 .comment a:visited {
-	color: #bfbf00;
+	color: white;
+	border-bottom:dotted 1px #505050 !important;
 }
 
 .entry a:hover,
@@ -113,11 +118,12 @@ strong {
 .comment a:hover,
 .comment a:active,
 .comment a:focus {
-	color: #FFF;
+	color: #bfbf00;
+	border-bottom:dotted 1px #bfbf00 !important;
 }
 
 .post img {
-	border: 5px solid #FFF;
+	
 }
 
 .post .number-of-comments a:link,
@@ -239,17 +245,18 @@ strong {
 	color: #bfbf00;
 }
 
+
+/*
 #footer {
 	border-top: 1px solid #3C3C3C;
 	color: #828282;
 	height: 36px;
-/*  background:url('../img/bgFooter.jpg') #333333 repeat-x center top;*/
+  background:url('../img/bgFooter.jpg') #333333 repeat-x center top;
 	color:#748080;
 	line-height:36px;
-	padding:0 6px 0 20px;
+	padding:0;
 }                 
-
-                      
+          
 #footer a:link,
 #footer a:visited {
 	color: #CCC;
@@ -260,4 +267,4 @@ strong {
 #footer a:focus {
 	color: #FFF;
 } 
-
+*/

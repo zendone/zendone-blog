@@ -2,7 +2,7 @@
 
 #wrapper {
 	margin: 0 auto;
-	max-width: 46.15em;
+	max-width: 940px;
 	min-width: 700px;
 }
 
@@ -124,7 +124,7 @@
 }
 
 #sidebar {
-	padding: 0 0 2em 0;
+	_padding: 0 0 2em 0;
 }
 
 #sb-1,
@@ -150,23 +150,4 @@
 
 
 
-#main-navigation-menu                     {position:absolute; right:0px; top:0px; width:100%; text-align:right;}
-#main-navigation-menu ul                  {position:relative; text-align:right; top:-4px;}
-#main-navigation-menu ul li               {_float:left; display:inline-block;}
-#main-navigation-menu li                  {height:24px;}
 
-#main-navigation-menu ul li a             {display:inline-block; font-size:12px; padding-left:8px; margin-right:20px; padding-top:4px; text-decoration:none; color:WHITE; border-left:solid 1px #737476; height:24px;}
-#main-navigation-menu ul li a:hover       {text-decoration:NONE; color:YELLOW;}
-
-#main-navigation-menu ul li span          {display:inline-block; font-size:12px; padding-left:8px; margin-right:20px; padding-top:4px; border-left:solid 1px #737476; color: gray; height:24px;}
-#main-navigation-menu ul li span.selected {color: white; font-weight: bold; background: url('../img/icon-arrow.png') no-repeat center bottom;}
-
-#main-content.home      {}
-#main-content.blog      {}
-#main-content.help      {}
-#main-content.login     {}
-#main-content.tour      {}
-#main-content.pricing   {}
-
-#main-navigation-menu a.home          {z-index:9999; position:absolute !important; display:block; border-left:none; top:5px; left:1px; width:auto !important; height:33px; text-indent:24px; background: url('../img/btn-home.png') no-repeat 0 -1px;}
-#main-navigation-menu a:hover.home    {background-position: 0 -34px;}

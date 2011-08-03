@@ -1,7 +1,77 @@
 #zd-logo-header {
-	background: url(../img/blog-header.png) no-repeat center top;
+	_background: url(../img/blog-header.png) no-repeat center top;
+	background: url(../img/zendoodle.png) no-repeat center top;
 	display:block;
 	width:100%;
 	height:348px;
 	
 }
+
+.zd-logo-header {
+	background: url(../img/zendoodle.png) no-repeat center top;
+	display:block;
+	width:100%;
+	padding-top:348px;
+}
+
+#main-navigation-menu                     {position:absolute; right:0px; top:0px; width:100%; text-align:right;}
+#main-navigation-menu ul                  {position:relative; text-align:right; top:-4px;}
+#main-navigation-menu ul li               {_float:left; display:inline-block;}
+#main-navigation-menu li                  {height:24px;}
+
+#main-navigation-menu ul li a             {display:inline-block; font-size:12px; padding-left:8px; margin-right:20px; padding-top:4px; text-decoration:none; color:WHITE; border-left:solid 1px #737476; height:24px;}
+#main-navigation-menu ul li a:hover       {text-decoration:NONE; color:YELLOW;}
+
+#main-navigation-menu ul li span          {display:inline-block; font-size:12px; padding-left:8px; margin-right:20px; padding-top:4px; border-left:solid 1px #737476; color: gray; height:24px;}
+#main-navigation-menu ul li span.selected {color: white; _font-weight: bold; background: url('../img/icon-arrow.png') no-repeat center bottom;}
+
+#main-navigation-menu a.home              {z-index:9999; position:absolute !important; display:block; border-left:none; top:5px; left:1px; width:auto !important; height:33px; text-indent:24px; background: url('../img/btn-home.png') no-repeat 0 -1px;}
+#main-navigation-menu a:hover.home        {background-position: 0 -34px;}
+
+
+/*________________________________________________________________________________________________________*/
+/* FOOTER                                                                                                 */
+/*                                                                                                        */			
+#footer.footer                    {width:940px; height:42px; text-align:center; margin:8px auto 32px auto !important; border-top:solid 1px black !important;}
+#footer .content                  {width:100%; padding-top:8px; border-top:solid 1px #404040; color:#707070 !important; display:inline-block; text-align:left;}
+#footer .content *                {font-size:13px; color:#707070 !important;}
+#footer .content a,              
+#footer .content a b              {font-size:13px !important; text-decoration:none; color:white !important;}
+#footer .content a:hover,
+#footer .content a:hover b        {color:#bfbf00 !important; border-bottom:dotted 1px #bfbf00; text-decoration:none;}
+
+#footer .content a b              {border-bottom:none !important; font-weight:bold;}
+
+#footer .content a.plaindrops     {margin-right:12px;}
+#footer .content span.plaindrops  {color:white !important; margin-right:12px;}
+#footer .content span.plaindrops b{color:white !important; font-weight:bold;}
+
+#footer .content span.contact     {border-left:solid 1px #404040; padding-left:12px;}
+
+#footer .content div.GTD          {float:right}
+#footer .content div.GTD a        {color:#909090 !important}
+#footer .content div.GTD a:hover  {color:#909090 !important; border-color:#909090;}
+
+#footer p.acknowledgments         {float:right; font-size:12px; border-top:dotted 1px #404040; margin:0 0 0 12px !important;}
+#footer p.acknowledgments a        {color:#909090 !important; font-size:12px;}
+#footer p.acknowledgments a:hover  {color:#909090 !important; border-color:#909090;}
+
+
+
+
+/* BARRAS DE SCROLL PARA WEBKIT 
+* ::-webkit-scrollbar                          {width:9px; height:9px; margin:3px;}
+* ::-webkit-scrollbar-button:start:decrement, 
+* ::-webkit-scrollbar-button:end:increment     {display:block; height:2px; background-color:transparent;}
+* ::-webkit-scrollbar-track-piece              {-webkit-border-radius:2px; -webkit-border-bottom-right-radius:4px; -webkit-border-bottom-left-radius:4px;}
+* ::-webkit-scrollbar-track-piece:hover        {background-color:rgba(0,0,0,0.15);}
+
+* ::-webkit-scrollbar-thumb:vertical           {height:50px;}
+* ::-webkit-scrollbar-thumb:horizontal         {width:50px;}
+* ::-webkit-scrollbar-thumb:vertical,          
+* ::-webkit-scrollbar-thumb:horizontal         {background-color:rgba(255,255,255,0.1); -webkit-border-radius:4px;}
+* ::-webkit-scrollbar-thumb:vertical:hover,    
+* ::-webkit-scrollbar-thumb:horizontal:hover   {background-color:rgba(255,255,255,0.2);}
+* ::-webkit-scrollbar-thumb:vertical:active,    
+* ::-webkit-scrollbar-thumb:horizontal:active   {background-color:rgba(255,255,255,0.3);}
+*/
