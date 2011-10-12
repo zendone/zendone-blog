@@ -2,7 +2,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://gmpg.org/xfn/11">
-	<title>zendone | blog</title>
+	<title>zendone | blog</title>  
+	
+	<link type="image/x-icon" href="/img/favicon.ico" rel="shortcut icon" /> 
 	    
     <script type="text/javascript" src="http://use.typekit.com/yuz8gth.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
