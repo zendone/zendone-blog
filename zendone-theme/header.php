@@ -65,7 +65,7 @@
             <span class="selected">BLOG</a>
           </li>
           <li>
-            <a href="http://www.zendone.com/login" class="login">LOGIN</a>
+            <a href="https://www.zendone.com/login" class="login">LOGIN</a>
           </li>
         </ul>
     </div>
