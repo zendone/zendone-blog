@@ -31,9 +31,11 @@
 }
 
 .post {
-	margin: 4.6em 0;
-	padding: 2.7em;
+	margin: 0;
+	padding: 2.7em 2.7em 30px 2.7em;
+	margin-bottom:0px;
 	position: relative;
+	background: url('../img/section-top-shadow.png') no-repeat center bottom;
 }
 
 .post img,
@@ -64,7 +66,7 @@
 }
 
 .post .number-of-comments {
-	bottom: 1em;
+	bottom: -27px;
 	position: absolute;
 	right: 1em;
 }

@@ -16,9 +16,28 @@
 
 */
 
-html, body {
-	background: black url(../img/bg-linen-home.jpg) 0 0 repeat;
-}
+* ::-webkit-scrollbar                          {width:10px; height:10px; margin:3px; background:transparent none !important;}
+* ::-webkit-scrollbar-button:start:decrement, 
+* ::-webkit-scrollbar-button:end:increment     {display:block; height:2px; background-color:transparent;}
+* ::-webkit-scrollbar-track-piece              {-webkit-border-radius:8px; -webkit-border-bottom-right-radius:8px; -webkit-border-bottom-left-radius:8px; border-radius:8px;}
+* ::-webkit-scrollbar-track-piece:hover        {}
+* ::-webkit-scrollbar-corner       			   {background:transparent none;}	
+
+* ::-webkit-scrollbar-thumb:vertical           {height:50px;}
+* ::-webkit-scrollbar-thumb:horizontal         {width:50px;}
+
+* ::-webkit-scrollbar-thumb:vertical,
+* ::-webkit-scrollbar-thumb:horizontal         {background-color:rgba(0,0,0,0.35); -webkit-border-radius:4px; width:6px;}
+* ::-webkit-scrollbar-thumb:vertical:hover,    
+* ::-webkit-scrollbar-thumb:horizontal:hover   {background-color:rgba(0,0,0,0.45);}
+* ::-webkit-scrollbar-thumb:vertical:active,    
+* ::-webkit-scrollbar-thumb:horizontal:active   {background-color:rgba(0,0,0,0.8);}
+
+
+
+html	 	{background: #303030  url('../img/bg-grey-paper.jpg') fixed;}
+body 		{padding-bottom:140px !important; background:none transparent;}
+
 	
 strong {
 	color: #CCC;
@@ -52,12 +71,26 @@ strong {
 	color: #FFF;
 }
 
+/*
 .post {
 	background:rgba(0, 0, 0, 0.31);
 	border:solid 1px black;
 	-moz-border-radius: 4px; -webkit-border-radius:4px; border-radius: 4px;
 	-webkit-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px; -moz-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px;
 }
+*/
+
+#main-content 		{margin-top:-10px; color:#222; background: url('../img/h_bgPaper.png'); border: solid 1px #101010; border-radius: 0 0 4px 4px; -webkit-box-shadow: 4px 4px 22px 1px rgba(0, 0, 0, 0.6); -moz-box-shadow: 4px 4px 22px 1px rgba(0,0,0,0.6); box-shadow: 24px 24px 222px 20px rgba(0, 0, 0, 0.6); margin: 30px 0 40px; border-radius: 6px; border:solid 6px white;} 
+
+.post_OLD			{margin-top:-10px; color:#222; background: url('../img/h_bgPaper.png'); border: solid 1px #101010; border-radius: 0 0 4px 4px; -webkit-box-shadow: 4px 4px 22px 1px rgba(0, 0, 0, 0.6); -moz-box-shadow: 4px 4px 22px 1px rgba(0,0,0,0.6); box-shadow: 24px 24px 222px 20px rgba(0, 0, 0, 0.6); margin: 50px 0 40px; border-radius: 6px; border:solid 6px white;} 
+.post img			{border: solid 8px white; box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);}
+.post .entry a:link	{color: #000 !important; text-shadow:1px 1px whit; font-family : "Gesta-Bold";}
+.entry a:visited, 
+.comment a:visited 	{color: #705020 !important; border-bottom: dotted 1px #505050 !important;}
+
+
+
+
 
 .post h2,
 .post h3,
@@ -69,9 +102,15 @@ strong {
 	color: #CCC;
 }
 
+.post h2 {
+	font-size: 24px;
+	color: #303030;
+}
+
 .post h2 a:link,
 .post h2 a:visited {
-	color: #CCC;
+	font-size: 24px;
+	color: #303030;
 }
 
 .post h2 a:hover,
@@ -90,10 +129,17 @@ strong {
 	text-transform: lowercase;
 }
 
-.comment {
+.comment_OLD {
 	color: #999;
 	-moz-border-radius: 4px; -webkit-border-radius:4px; border-radius: 4px;
-	-webkit-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px; -moz-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px;
+	-webkit-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px; 
+	-moz-box-shadow: rgba(0,0,0,0.3) 1px 1px 8px;
+}
+.comment {
+	color: #bbb;
+	-webkit-box-shadow: rgba(0,0,0,0.3) 1px 1px 18px inset; 
+	-moz-box-shadow: rgba(0,0,0,0.3) 1px 1px 18px inset;
+	box-shadow: rgba(0,0,0,0.3) 1px 1px 18px inset; 
 }
 
 .entry a:link {
@@ -148,13 +194,22 @@ strong {
 
 #comments h3,
 #commentform h3 {
-	color: #CCC;
+	color: #303030;
+	text-shadow: 1px 1px white;
 }
 
-.comment {
-  background:rgba(0, 0, 0, 0.31);
+.comment_OLD {
+  	background:rgba(0, 0, 0, 0.31);
 	border-top: 1px solid #3C3C3C;
 	border: solid 2px black;
+}
+.comment {
+	background: rgba(0, 0, 0, 0.7);
+	margin: 0 -6px;
+	border-radius: 0;
+	border-left: solid 1px #555;
+	border-right: solid 1px #555;
+	padding: 28px 44px 14px 44px;
 }
 
 .highlighted {
@@ -184,10 +239,11 @@ strong {
 }
 
 #commentform {
-	background-color: rgba(0, 0, 0, 0.4);
-	background: rgba(0, 0, 0, 0.0) left 12px no-repeat;
+	background: url('../img/section-bottom-shadow.png') no-repeat center top;
 	border: none 2px black;
-	margin-top:80px;
+	margin: 0;
+	padding-top: 30px;
+	padding: 30px 20px;
 /*  text-indent:120px;*/
 }
 
@@ -198,9 +254,8 @@ strong {
 
 #commentform textarea {
 	width:100% !important;
-	border: solid 2px #000000;
+	border: solid 2px #ccc;
 	-moz-border-radius: 4px; -webkit-border-radius:4px; border-radius: 4px;
-	-webkit-box-shadow: rgba(0,0,0,0.8) 3px 3px 8px; -moz-box-shadow: rgba(0,0,0,0.8) 3px 3px 8px; box-shadow: rgba(0,0,0,0.8) 3px 3px 8px;
 }
 
 #commentform a:link,
@@ -211,7 +266,7 @@ strong {
 #commentform a:hover,
 #commentform a:active,
 #commentform a:focus {
-	color: #ffffff;
+	color: #333;
 }
 
 .pagination {

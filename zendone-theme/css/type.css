@@ -93,6 +93,8 @@ a.back {
   font-size: 14px;
 }
 
+.post-comments {padding-left:12px;}
+
 .date {
   font-size: 12px;
 }
@@ -103,11 +105,14 @@ a.back {
 }
 
 #commentform h3 {
-	margin: 0 0 1.5em 0;
+	margin: 0 0 -22px 0;
 }
 
 #commentform p {
   font-size: 13px;
+  text-align: right;
+  padding-right: 7px;
+  margin-top: 0;
 }
 
 .comment cite {
@@ -142,7 +147,7 @@ a.back {
   background: url(../img/ico-comments.png) no-repeat center 2px;
   display:inline-block;
   width:54px;
-  height:40px;
+  height:45px;
   line-height:36px;
   font-size:16px;
   font-weight:bold;
@@ -160,18 +165,20 @@ a.back {
 }
 
 .comments-participate {
-  background: url(../img/btn-add.png) no-repeat center 0;
+  background: url(../img/btn-add.png) no-repeat center -66px;
   display:inline-block;
   width:68px;
   height:33px;
   font-size:14px;
   color:black;
   position:relative;
-  top:-5px;
+  top: 5px;
+  float: right;
+  margin-right: 15px;
 }
 
 .comments-participate:hover {
-  background: url(../img/btn-add.png) no-repeat center -33px;
+  background: url(../img/btn-add.png) no-repeat center -99px;
 }
 
 /*#footer a {

@@ -33,9 +33,24 @@ padding: 0 12px 0 0;
 }
 
 #commentform #submit-comment {
-  width: auto;
-	font-size: 17px;
+  	width: auto;
 	height: 30px;
+	background: #FFB034;
+	border-radius: 3px;
+	border: none;
+	padding: 2px 16px 0px;
+	font-size: 11px;
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4), 1px 1px 1px rgba(255, 255, 255, 0.4) inset;
+	border: solid 1px #DFA024;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+#commentform #submit-comment:hover {
+  
+	background: #eFa024;
+
 }
 
 #search-form #submit {

@@ -42,13 +42,32 @@
 </head>
 <body>
 
+	<div id="main-navigation-menu">
+	  <div class="ui-container">
+	    <div class="breath-crumbs">
+	      <span class="zendone">ZENDONE</span>
+	      <a class="home" href="/main">HOME</a>
+	      <span class="level">/</span>
+	      <span class="blog selected">BLOG</span>
+	    </div>
+	    <ul class="right-menu">
+	      <li><a href="/pricing" class="pricing">PRICING</a></li>
+	      <li><a href="http://help.zendone.com" class="help">HELP</a></li>
+	      <li><a href="https://getsatisfaction.com/zendone/" class="community">COMMUNITY</a></li>
+	      <li><a href="http://blog.zendone.com" class="blog selected">BLOG</a></li>
+	      <li><a href="http://www.zendone.com/login" class="login">LOGIN</a></li>
+	    </ul>
+	
+	  </div>
+	</div>
+	
 <div id="wrapper" class="zd-logo-header">
 	<div id="header">
 		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 		<p class="description">Things about <a href="http://www.zendone.com">zen<b>done</b></a>. Written by its crew</p>
 	</div><!-- close:header -->
 	
-	
+	<!--
 	<div id="main-navigation-menu">
         <ul>
           <li>
@@ -71,5 +90,8 @@
           </li>
         </ul>
     </div>
+	-->
+		
+
 
     
