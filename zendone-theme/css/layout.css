@@ -33,10 +33,28 @@
 .post {
 	margin: 0;
 	padding: 2.7em 2.7em 30px 2.7em;
-	margin-bottom:0px;
 	position: relative;
+	/*
+	margin-bottom:0px;	
 	background: url('../img/section-top-shadow.png') no-repeat center bottom;
+	*/
+	background: url('../img/h_bgPaper.png');
+	-webkit-box-shadow: 4px 4px 22px 1px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 4px 4px 22px 1px rgba(0,0,0,0.6);
+	box-shadow: 24px 24px 222px 20px rgba(0, 0, 0, 0.6);
+	margin-bottom: 40px;
+	border: solid 1px white;
+	border-radius: 6px;
 }
+
+#comments {background: url('../img/h_bgPaper.png');
+-webkit-box-shadow: 4px 4px 22px 1px rgba(0, 0, 0, 0.6);
+-moz-box-shadow: 4px 4px 22px 1px rgba(0,0,0,0.6);
+box-shadow: 24px 24px 222px 20px rgba(0, 0, 0, 0.6);
+margin-bottom: 0px;
+border: solid 1px white;
+border-radius: 6px 6px 0 0;
+padding-bottom: 0px;}
 
 .post img,
 .post object,
@@ -66,7 +84,7 @@
 }
 
 .post .number-of-comments {
-	bottom: -27px;
+	bottom: 16px;
 	position: absolute;
 	right: 1em;
 }
@@ -127,7 +145,7 @@
 
 .pagination div {
 	float: left;
-	margin: 0 2em 0 0;
+	margin: 0 2em 0 2em;
 }
 
 #sidebar {
