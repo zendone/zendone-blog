@@ -280,6 +280,12 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 18px inset;}
   padding-right:18px;
 }
 
+#commentform input {
+	border: solid 2px #CCC;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
 
 #commentform textarea {
 	width:100% !important;
