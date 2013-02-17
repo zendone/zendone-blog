@@ -90,7 +90,7 @@ strong {
 .post img			{border: solid 8px white; box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);}
 .post .entry a:link	{color: #000 !important; text-shadow:1px 1px whit; font-family : "Gesta-Bold";}
 .entry a:visited, 
-.comment a:visited 	{color: #705020 !important; border-bottom: dotted 1px #505050 !important;}
+.comment a:visited 	{color: #999 !important; border-bottom: dotted 1px #505050 !important;}
 
 
 
@@ -103,7 +103,7 @@ strong {
 #search h2,
 .emptysearch,
 .error {
-	color: #CCC;
+	color: #888;
 }
 
 .post h2 {
