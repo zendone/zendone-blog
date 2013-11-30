@@ -2,7 +2,7 @@
 	  <div class="content">
 	    <a href="http://www.zendone.com">zen<b>done</b></a>
   		© 2011 · by 
-  		<span class="plaindrops">plain<b>drops</b>®</span>
+  		<span class="plaindrops">zendone<b>Ltd</b>®</span>
   		<span class="contact">contact:</span> <a href="mailto:info@zendone.com">info@zendone.com</a>
 	  
 	    <div class="GTD">GTD® and Getting Things Done® are registered trademarks of <a href="www.plaindrops.com">David Allen & Co</a></div>
