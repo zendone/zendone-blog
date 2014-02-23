@@ -45,7 +45,7 @@ var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-24616447-1']); _gaq.push(['
 	    <ul class="right-menu">
 	      <li><a href="https://www.zendone.com/pricing" class="pricing">PRICING</a></li>
 	      <li><a href="http://help.zendone.com" class="help">HELP</a></li>
-	      <li><a href="http://community.zendone.com/zendone/" class="community">COMMUNITY</a></li>
+	      <li><a href="http://support.zendone.com" class="community">SUPPORT</a></li>
 	      <li><a href="http://blog.zendone.com" class="blog selected">BLOG</a></li>
 	      <li><a href="https://www.zendone.com/login" class="login">LOGIN</a></li>
 	    </ul>
